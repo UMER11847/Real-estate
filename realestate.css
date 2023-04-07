@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/681390/pexels-photo-681390.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(31, 30, 30);
+    padding: 30px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.logo {
+    color: white;
+    margin-left: 30px;
+}
+
+.mu {
+    color: #d79407;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 10px 20px;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li a {
+    color: white;
+    padding: 20px;
+    transition: 0.8s;
+}
+
+.menu ul li a:hover {
+    background-color: #d79407;
+    border-radius: 15px;
+}
+
+#container .content {
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.content h1 {
+    padding: 20px;
+    font-family: 'Baskervville', serif;
+    letter-spacing: 15px;
+}
+
+.content p {
+    line-height: 2em;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.content .pri {
+    font-family: 'Marck Script', cursive;
+}
+
+.content button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #d79407;
+
+    transition: 0.8s;
+    border-style: none;
+}
+
+.content button a {
+    color: white;
+}
+
+.content button:hover {
+    background: transparent;
+    border: #d79407 2px solid;
+}
+
+#we-provide {
+    height: 100vh;
+    background-color: #d0c7c2;
+}
+
+#we-provide .bcont {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.bimg {
+    background-image: url('https://images.pexels.com/photos/164522/pexels-photo-164522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+.bcont h1 {
+    padding: 20px;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.bcont p {
+    line-height: 2em;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.bcont button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #d79407;
+    transition: 0.8s;
+    border-style: none;
+}
+
+.bcont a {
+    color: white;
+}
+
+.bcont button:hover {
+    background: transparent;
+    border: #d79407 2px solid;
+}
+
+
+
+
+#interior {
+    height: 100vh;
+    background-color: #d0c7c2;
+}
+
+#interior .int-cont {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.int-img {
+    background-image: url('https://images.pexels.com/photos/164522/pexels-photo-164522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+.int-cont h1 {
+    padding: 20px;
+    font-family: 'Nothing You Could Do', cursive;
+}
+
+.int-cont p {
+    line-height: 2em;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.int-cont button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #d79407;
+    transition: 0.8s;
+    border-style: none;
+}
+
+.int-cont a {
+    color: white;
+}
+
+.int-cont button:hover {
+    background: transparent;
+    border: #d79407 2px solid;
+}
+
+/*footer*/
+
+.footer {
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+
+.footer div {
+    text-align: center;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.footer div h3 {
+    font-weight: 300;
+    margin-bottom: 1px;
+}
+
+.col-1 a {
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
